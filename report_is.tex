@@ -10,11 +10,9 @@ Operating system allows processes in the system to share the computing, storage 
 \end{abstract}
 
 \section{DPDK}
-
-\section{VT-d}
-Some lines about VT-d
+Intel's DataPlane Development Kit aims to improve packet processing performance in Intel platforms. This is achieved by providing applications with customized software library that significantly improves peripheral device access performance. This library provides a simple API interface for buffer management, queue management, poll-mode capable userspace drivers and packet-flow classification. Further several abstraction layers are added to both userspace and kernel-space to help communicate with the peripheral device in traditional Linux-based operating systems. An experiment was setup in Emulab with gpu2 node and 2 Network Interace Cards(NICs) were assigned to DPDK. Following this, a sample application was run to verify DPDK. After a quick analysis of the existing openflow controllers and their performance metrics, NOX was chosen to be modified to support DPDK. However,limited types of hardware supported by DPDK warranted continued exploration for other mechanisms.
 \section{SUD}
-Some lines about SUD
+
 \section{Porting to 3.x kernel}
 Some lines regarding Porting 
 \section{Results}
